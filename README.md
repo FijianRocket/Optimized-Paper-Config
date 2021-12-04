@@ -181,53 +181,53 @@ on InventoryMoveItemEvent.
 The amount of time (in ticks) it takes for an arrow not fired by a player to 
 despawn.
 
-- Default: -1 (Uses Spigot's arrow-despawn-rate)
-- Optimized: 60
+- **Default:** -1 (Uses Spigot's arrow-despawn-rate)
+- **Optimized:** 60
 
 #### creative-arrow-despawn-rate
 Similar to non-player-arrow-despawn rate but with arrows fired while in creative
 or arrows fired with an infinity bow
 
-- Default: -1 (Uses Spigot's arrow-despawn-rate)
-- Optimized: 60
+- **Default:** -1 (Uses Spigot's arrow-despawn-rate)
+- **Optimized:** 60
 
 #### prevent-moving-into-unloaded-chunks
 If set to true will prevent players from entering an unloaded chunk which can 
 cause lag.
 
-- Default: false
-- Optimized: true
+- **Default:** false
+- **Optimized:** true
 
 #### use-faster-eigencraft-redstone
 If set to true will use papers optimized redstone algorithm which has been shown
 to reduce unnessisary redstone updates and greatly improve redstone's speed
 and performance.
 
-- Default: false
-- Optimized: true
+- **Default:** false
+- **Optimized:** true
 
 #### armor-stands-tick
 Unlike traditional blocks, armor stands are considered entities because they
 are able to interact with the world. Disabling this will just make it so
 they are unable to interact with pistons, water, or other things.
 
-- Default: true
-- Optimized: false
+- **Default:** true
+- **Optimized:** false
 
 #### per-player-mob-spawns
 If set to true will implement spawning behavior similar to a singleplayer world, 
 this prevents stuff like massive mob farms from affecting the server's spawn
 rates.
 
-- Default: false
-- Optimized: true
+- **Default:** false
+- **Optimized:** true
 
 #### alt-item-despawn-rate
 Despawn certain item drops faster or slower than the despawn rate set in Spigot
 if set to true. Use the Spigot material list when adding items.
 
-- Default: false
-- Optimized: true
+- **Default:** false
+- **Optimized:** true
 
 ### Server.properties
 Changes made to the Server.properties file and what they do.
@@ -235,16 +235,16 @@ Changes made to the Server.properties file and what they do.
 #### view-distance
 Allows you to cap the chunk render distance of players
 
-- Default: 10 
-- Optimized: 10 (Value not changed)
+- **Default:** 10 
+- **Optimized:** 10 (Value not changed)
 
 #### network-compression-threshold
 The maximum size of a packet before the server compesses it, Higher values will
 take less resources but more bandwith, lower values will take more resources 
 but less bandwith.
 
-- Default: 256
-- Optimized: 128
+- **Default:** 256
+- **Optimized:** 128
 
 
 
