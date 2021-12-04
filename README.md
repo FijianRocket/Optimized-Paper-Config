@@ -1,7 +1,7 @@
 # Optimized Paper Config 
 
 Optimized versions of the default PaperMC configuration files for low end
-severs or to just improve performance in general.
+servers or to just improve performance in general.
 
 ⚠️ Some plugins may break and some minor gameplay features will cease to function
 with this config enabled.
@@ -15,9 +15,12 @@ Simply go into the root directory of your server files and replace "bukkit.yml",
 "paper.yml", "server.properties", and "spigot.yml" with the files included in 
 the Config folder of this github repository.
 
+It is also strongly recomended you look over the "Configuration" section of this readme and change values
+according to your liking as well change the server.properties file to match your servers values.
+
 ## Reporting Issues
 
-Report issues by opening an issue on the issue tracker, if the config is causing
+Report issues by opening an issue on the [issue tracker](https://github.com/XxXCoolBoy112XxX/Optimized-Paper-Config/issues), if the config is causing
 your issue make sure your report includes. 
 
 1. A screenshot of the issue
@@ -31,13 +34,13 @@ If your issue has to do with Paper itself or something else, then I cannot help 
 
 Some of the items changed in this config can cause minor issues for the sake
 of performance which you may want to avoid. This config section only contains
-items which I have changedt
+items which I have changed.
 
 - **Default:** Values set by default.
 - **Optimized:** Values changed in this config for optimization purposes.
 
 ### Bukkit.yml
-Changes made to the Bukkit.yml file and what they do.
+Changes made to the [bukkit.yml](https://github.com/XxXCoolBoy112XxX/Optimized-Paper-Config/blob/main/Config/bukkit.yml) file and what they do.
 
 #### spawn-limits
 Sets the spawn limits of various different mobs, you may want to change this
@@ -61,7 +64,7 @@ increas the time between spawn attempts
 - **Optimized:** monster:5, water:11, water-ambient:21, ambient:31
 
 ### Spigot.yml
-Changes made to the Spigot.yml file and what they do.
+Changes made to the [spigot.yml](https://github.com/XxXCoolBoy112XxX/Optimized-Paper-Config/blob/main/Config/spigot.yml) file and what they do.
 
 #### save-user-cache-on-stop-only
 If this is set to true it will only save/cache user data when the server stops
@@ -115,7 +118,7 @@ you want arrows to despawn quicker or slower.
 - **Optimized:** 300
 
 ### Paper.yml
-Changes made to the Paper.yml file and what they do.
+Changes made to the [paper.yml](https://github.com/XxXCoolBoy112XxX/Optimized-Paper-Config/blob/main/Config/paper.yml) file and what they do.
 
 #### max-auto-save-chunks-per-tick
 The maximum amount of chunks that will autosave per tick.
@@ -231,7 +234,7 @@ if set to true. Use the Spigot material list when adding items.
 - **Optimized:** true
 
 ### Server.properties
-Changes made to the Server.properties file and what they do.
+Changes made to the [server.properties](https://github.com/XxXCoolBoy112XxX/Optimized-Paper-Config/blob/main/Config/server.properties) file and what they do.
 
 #### view-distance
 Allows you to cap the chunk render distance of players
@@ -245,11 +248,11 @@ take less resources but more bandwith, lower values will take more resources
 but less bandwith.
 
 - **Default:** 256
-- **Optimized:** 128
+- **Optimized:** 256 (Not Changed)
 
 #### max-world-size
 The maximum size of your world this doesn't really matter for performance but
-is useful to cap if you use a preloading plugin like Chunky
+is useful to cap if you use a preloading plugin like [Chunky](https://www.spigotmc.org/resources/chunky.81534/)
 
 - **Default:** N/A
 - **Optimized:** 2000 (My personal preference, but set it to whatever you like)
