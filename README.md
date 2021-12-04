@@ -30,7 +30,8 @@ If your issue has to do with Paper itself or something else, then I cannot help 
 ## Configuration
 
 Some of the items changed in this config can cause minor issues for the sake
-of performance which you may want to avoid.
+of performance which you may want to avoid. This config section only contains
+items which I have changedt
 
 - **Default:** Values set by default.
 - **Optimized:** Values changed in this config for optimization purposes.
@@ -236,7 +237,7 @@ Changes made to the Server.properties file and what they do.
 Allows you to cap the chunk render distance of players
 
 - **Default:** 10 
-- **Optimized:** 10 (Value not changed)
+- **Optimized:** 8 
 
 #### network-compression-threshold
 The maximum size of a packet before the server compesses it, Higher values will
@@ -246,6 +247,9 @@ but less bandwith.
 - **Default:** 256
 - **Optimized:** 128
 
+#### max-world-size
+The maximum size of your world this doesn't really matter for performance but
+is useful to cap if you use a preloading plugin like Chunky
 
-
-
+- **Default:** N/A
+- **Optimized:** 2000 (My personal preference, but set it to whatever you like)
